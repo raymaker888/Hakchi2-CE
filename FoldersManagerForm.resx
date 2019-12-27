@@ -140,7 +140,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD0
-        IwAAAk1TRnQBSQFMAgEBJgEAAaQBAQGkAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        IwAAAk1TRnQBSQFMAgEBJgEAAbQBAQG0AQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAAaADAAEBAQABCAYAASgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -303,7 +303,7 @@
     <value>0</value>
   </data>
   <data name="treeView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 450</value>
+    <value>315, 499</value>
   </data>
   <data name="treeView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -336,7 +336,7 @@
     <value>Top, Right</value>
   </data>
   <data name="buttonNewFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 242</value>
+    <value>449, 284</value>
   </data>
   <data name="buttonNewFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 23</value>
@@ -372,7 +372,7 @@
     <value>Rightmost</value>
   </data>
   <data name="comboBoxPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 243</value>
+    <value>121, 284</value>
   </data>
   <data name="comboBoxPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 21</value>
@@ -396,7 +396,7 @@
     <value>True</value>
   </data>
   <data name="labelPosition1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 246</value>
+    <value>10, 287</value>
   </data>
   <data name="labelPosition1.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>
@@ -423,10 +423,10 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="listViewContent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 269</value>
+    <value>2, 313</value>
   </data>
   <data name="listViewContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>557, 181</value>
+    <value>557, 186</value>
   </data>
   <data name="listViewContent.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -445,6 +445,33 @@
   </data>
   <data name="groupBoxSplitModes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="buttonFoldersPublisher.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFoldersPublisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 221</value>
+  </data>
+  <data name="buttonFoldersPublisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 34</value>
+  </data>
+  <data name="buttonFoldersPublisher.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonFoldersPublisher.Text" xml:space="preserve">
+    <value>Split by publisher</value>
+  </data>
+  <data name="&gt;&gt;buttonFoldersPublisher.Name" xml:space="preserve">
+    <value>buttonFoldersPublisher</value>
+  </data>
+  <data name="&gt;&gt;buttonFoldersPublisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFoldersPublisher.Parent" xml:space="preserve">
+    <value>groupBoxSplitModes</value>
+  </data>
+  <data name="&gt;&gt;buttonFoldersPublisher.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="buttonFoldersApp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -471,7 +498,7 @@
     <value>groupBoxSplitModes</value>
   </data>
   <data name="&gt;&gt;buttonFoldersApp.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="buttonNoFoldersOriginal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -498,7 +525,7 @@
     <value>groupBoxSplitModes</value>
   </data>
   <data name="&gt;&gt;buttonNoFoldersOriginal.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="buttonNoFolders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -525,7 +552,7 @@
     <value>groupBoxSplitModes</value>
   </data>
   <data name="&gt;&gt;buttonNoFolders.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="buttonFoldersLetters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -552,7 +579,7 @@
     <value>groupBoxSplitModes</value>
   </data>
   <data name="&gt;&gt;buttonFoldersLetters.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonFoldersEqually.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -579,13 +606,13 @@
     <value>groupBoxSplitModes</value>
   </data>
   <data name="&gt;&gt;buttonFoldersEqually.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="groupBoxSplitModes.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 12</value>
   </data>
   <data name="groupBoxSplitModes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 227</value>
+    <value>254, 267</value>
   </data>
   <data name="groupBoxSplitModes.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -612,7 +639,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBoxArt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 15</value>
+    <value>11, 34</value>
   </data>
   <data name="pictureBoxArt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -642,7 +669,7 @@
     <value>13, 12</value>
   </data>
   <data name="groupBoxArt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 227</value>
+    <value>250, 266</value>
   </data>
   <data name="groupBoxArt.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -678,7 +705,7 @@
     <value>0</value>
   </data>
   <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>884, 450</value>
+    <value>884, 499</value>
   </data>
   <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
     <value>315</value>
@@ -696,7 +723,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="comboBoxBackPosition.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -939,7 +966,7 @@
     <value>Bottom</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 474</value>
+    <value>0, 523</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>884, 38</value>
@@ -980,7 +1007,7 @@
     <value>Magenta</value>
   </data>
   <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="newToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;New</value>
@@ -1008,13 +1035,13 @@
     <value>Ctrl+O</value>
   </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open</value>
   </data>
   <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1039,22 +1066,22 @@
     <value>Ctrl+S</value>
   </data>
   <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Save</value>
   </data>
   <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
     <value>Save &amp;As</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>E&amp;xit</value>
@@ -1099,7 +1126,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>884, 450</value>
+    <value>884, 499</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1114,7 +1141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1123,7 +1150,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>884, 512</value>
+    <value>884, 561</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>900, 550</value>

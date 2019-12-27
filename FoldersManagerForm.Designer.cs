@@ -38,6 +38,7 @@
             this.labelPosition1 = new System.Windows.Forms.Label();
             this.listViewContent = new System.Windows.Forms.ListView();
             this.groupBoxSplitModes = new System.Windows.Forms.GroupBox();
+            this.buttonFoldersPublisher = new System.Windows.Forms.Button();
             this.buttonFoldersApp = new System.Windows.Forms.Button();
             this.buttonNoFoldersOriginal = new System.Windows.Forms.Button();
             this.buttonNoFolders = new System.Windows.Forms.Button();
@@ -190,6 +191,7 @@
             // 
             this.listViewContent.AllowDrop = true;
             resources.ApplyResources(this.listViewContent, "listViewContent");
+            this.listViewContent.HideSelection = false;
             this.listViewContent.LabelEdit = true;
             this.listViewContent.LargeImageList = this.imageList;
             this.listViewContent.Name = "listViewContent";
@@ -209,6 +211,7 @@
             // groupBoxSplitModes
             // 
             resources.ApplyResources(this.groupBoxSplitModes, "groupBoxSplitModes");
+            this.groupBoxSplitModes.Controls.Add(this.buttonFoldersPublisher);
             this.groupBoxSplitModes.Controls.Add(this.buttonFoldersApp);
             this.groupBoxSplitModes.Controls.Add(this.buttonNoFoldersOriginal);
             this.groupBoxSplitModes.Controls.Add(this.buttonNoFolders);
@@ -216,6 +219,13 @@
             this.groupBoxSplitModes.Controls.Add(this.buttonFoldersEqually);
             this.groupBoxSplitModes.Name = "groupBoxSplitModes";
             this.groupBoxSplitModes.TabStop = false;
+            // 
+            // buttonFoldersPublisher
+            // 
+            resources.ApplyResources(this.buttonFoldersPublisher, "buttonFoldersPublisher");
+            this.buttonFoldersPublisher.Name = "buttonFoldersPublisher";
+            this.buttonFoldersPublisher.UseVisualStyleBackColor = true;
+            this.buttonFoldersPublisher.Click += new System.EventHandler(this.buttonFoldersPublisher_Click);
             // 
             // buttonFoldersApp
             // 
@@ -443,7 +453,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FoldersManagerForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TreeContructorForm_FormClosing);
-            this.Load += new System.EventHandler(this.FoldersManagerForm_Load);
             this.splitContainer.Panel1.ResumeLayout(false);
             this.splitContainer.Panel2.ResumeLayout(false);
             this.splitContainer.Panel2.PerformLayout();
@@ -504,5 +513,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button buttonFoldersPublisher;
     }
 }

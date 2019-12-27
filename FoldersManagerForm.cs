@@ -273,6 +273,11 @@ namespace com.clusterrr.hakchi_gui
             DrawSplitTree(NesMenuCollection.SplitStyle.FoldersGroupByApp);
         }
 
+        private void buttonFoldersPublisher_Click(object sender, EventArgs e)
+        {
+            DrawSplitTree(NesMenuCollection.SplitStyle.FoldersGroupByPublisher);
+        }
+
         private void treeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
             ShowSelected();
@@ -1166,11 +1171,6 @@ namespace com.clusterrr.hakchi_gui
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void FoldersManagerForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
